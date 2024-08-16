@@ -1,2 +1,16 @@
 @import '../../assets/helper/Helper.scss';
 
+.infoBoxStyle{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    width: 60rem;
+    border: solid $color-darkblue 8px;
+    .infoTextStyle{
+        padding: 1rem 2rem;
+    }
+    img{
+        width: 100%;
+        height: 30rem;
+    }
+}
