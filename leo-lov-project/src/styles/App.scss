@@ -1,0 +1,23 @@
+@import '../assets/helper/Helper.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $color-white;
+    font-family: Inter ;
+    
+.cardFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .cardGrid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+    }
+}
+
+}

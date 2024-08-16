@@ -1,0 +1,42 @@
+@import '../../assets/helper/Helper.scss';
+
+.mainNavStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border-bottom: #002BC2 solid 5px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: $color-white;
+
+    .leftNavStyle{
+        display: flex;
+        align-items: center;
+        li{
+            list-style: none;
+            padding: 0.2rem;
+            a{
+                text-decoration: none;
+                color: $color-lightblue;
+            }
+        }
+    }
+
+    .logoNavStyle{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 0.5rem;
+            a{
+                text-decoration: none;
+                color: $color-lightblue;
+                font-size: 32px;
+                span{
+                    color: $color-black;
+                }
+            }
+        }
+    }
+}
