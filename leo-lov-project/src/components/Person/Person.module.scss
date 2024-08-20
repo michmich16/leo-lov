@@ -1,0 +1,11 @@
+@import '../../assets/helper/Helper.scss';
+
+.personStyle{
+    border-bottom: solid 5px $color-darkblue;
+    width: 15rem;
+    z-index: 98;
+
+    img{
+        width: 100%;
+    }
+}

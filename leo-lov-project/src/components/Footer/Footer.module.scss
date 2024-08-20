@@ -1,0 +1,16 @@
+@import '../../assets/helper/Helper.scss';
+
+footer{
+    background-color: $color-darkblue;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+
+    li{
+        list-style: none;
+    }
+    ul{
+        padding: 1rem 0;
+    }
+}

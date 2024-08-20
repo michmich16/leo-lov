@@ -5,12 +5,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     margin-top: -8rem;
-    width: 23rem;
+    width: 20rem;
     height: 30rem;
     z-index: 98;
 
     .cardContentStyle {
-        padding: 1rem 2rem;
         h3 {
             font-size: 32px;
             color: $color-lightblue;
@@ -18,7 +17,7 @@
             text-align: center;
         }
         p{
-            padding: 2rem 3rem;
+            padding: 2rem 2rem;
             font-size: 16px;
         }
     }

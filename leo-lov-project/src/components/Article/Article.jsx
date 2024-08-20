@@ -8,6 +8,7 @@ export const Article = (props) => {
                 <h3>{props.articleHeader}</h3>
                 <p>{props.articleText}</p>
                 <p>{props.subarticleText}</p>
+                {props.children}
             </div>
         </article>
     )
