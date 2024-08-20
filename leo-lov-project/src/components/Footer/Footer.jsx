@@ -1,5 +1,6 @@
 import style from './Footer.module.scss'
 
+
 export const Footer = () => {
     return (
         <footer>
@@ -30,7 +31,10 @@ export const Footer = () => {
             </div>
             <div>
                 <h3>Sociale medier</h3>
-                <div></div>
+                <div className={style.socialIcons}>
+                    <img src="./Vector.svg" alt="" />
+                    <img src="./Vector-1.svg" alt="" />
+                </div>
             </div>
 
         </footer>

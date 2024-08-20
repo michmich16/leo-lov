@@ -52,7 +52,7 @@ function App() {
         </div>
       </div>
       <div className='mapFlex'>
-        <Article img='map.jpeg' articleHeader='HER BOR VI' articleText='Vi har valgt at bosætte os i solen! Her er dejlig varmt og ikke ret mange fattige mennesker. Det nyder vi rigtig meget. “Hvis du har råd til at tage til Sechellerne har du råd til os”. Det er et af vores utallige motto´er.'><div><li>Leo-Lov ApS</li>
+        <Article img='map.jpeg' articleHeader='HER BOR VI' articleText='Vi har valgt at bosætte os i solen! Her er dejlig varmt og ikke ret mange fattige mennesker. Det nyder vi rigtig meget. “Hvis du har råd til at tage til Sechellerne har du råd til os”. Det er et af vores utallige motto´er.'><div className='addressFlex'><li>Leo-Lov ApS</li>
           <li>Maldive rd. 22</li>
           <li>Seychelles</li></div></Article>
       </div>

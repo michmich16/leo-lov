@@ -40,3 +40,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px){
+    .mainNavStyle{
+        flex-direction: column-reverse;
+        .leftNavStyle{
+            margin: auto;
+        }
+        .logoNavStyle{
+            margin: auto;
+        }
+    }
+}

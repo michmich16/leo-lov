@@ -1,11 +1,32 @@
 @import '../../assets/helper/Helper.scss';
 
-.personStyle{
+.personStyle {
     border-bottom: solid 5px $color-darkblue;
-    width: 15rem;
+    width: 20rem;
     z-index: 98;
 
-    img{
-        width: 100%;
+    .personContentStyle {
+        img {
+            display: block;
+            border: solid 5px $color-darkblue;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        h3 {
+            font-size: 14px;
+            color: $color-lightblue;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        p {
+            padding: 1rem 0;
+            font-size: 14px;
+        }
     }
+
+
 }
