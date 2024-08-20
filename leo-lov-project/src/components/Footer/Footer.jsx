@@ -3,7 +3,7 @@ import style from './Footer.module.scss'
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer id='footerID'>
             <div>
                 <h3>Adresse</h3>
                 <li>Find os her:</li>

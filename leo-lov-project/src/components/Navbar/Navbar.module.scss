@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem;
-    border-bottom: #002BC2 solid 5px;
+    border-bottom: #002BC2 solid 6.5px;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -26,6 +26,7 @@
 
     .logoNavStyle{
         display: flex;
+        font-family: Jura;
         li{
             list-style: none;
             padding: 0.5rem;
@@ -44,6 +45,7 @@
 @media only screen and (max-width: 600px){
     .mainNavStyle{
         flex-direction: column-reverse;
+        padding: 1rem 0.5rem;
         .leftNavStyle{
             margin: auto;
         }

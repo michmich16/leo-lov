@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -75,7 +76,6 @@ body {
         justify-content: center;
         padding-top: 3rem;
         padding-bottom: 3rem;
-
         .addressFlex {
             list-style: none;
             display: flex;

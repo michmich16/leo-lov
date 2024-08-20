@@ -42,7 +42,7 @@ function App() {
         <Article img='intetproblem.jpeg' articleHeader='INTET PROBLEM' articleText='Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod alt forventning skulle oplevel at støde på et retsligt problem som leo-lov ikke kan løse får du halvdelen af beløbet igen.' subarticleText='Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!' />
         <Article articleHeader='EVIG GARANTI' articleText='Leo-lov har altid været det bedste advokatfirma i verden. Der er simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer så længe du har penge. Hvis du mod alt forventning skulle oplevel at støde på et retsligt problem som leo-lov ikke kan løse får du halvdelen af beløbet igen.' subarticleText='Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!' img='eivggaranti.jpeg' />
       </div>
-      <h2>MØD HOLDET</h2>
+      <h2 id='personID'>MØD HOLDET</h2>
       <div className='personFlex'>
         <div className='personGrid'>
           <Person img='john.jpeg' title='John Harbinger' textContent='Jeg er den mest successfulde advokat i firmaet. I hvert fald mere end Peter' />
